@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./landing.css";
+import "./header.css";
 
 const NavHead = () => {
   const [click, setClick] = useState(false);
@@ -9,7 +9,7 @@ const NavHead = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            <img className="logo" src="images/logo.svg" alt="Port Co Logo"></img>
+            <img className="logo" src="images/logo2.svg" alt="Port Co Logo"></img>
           </Link>
           <div className="menu-icon">
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
