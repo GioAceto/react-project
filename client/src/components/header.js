@@ -1,20 +1,23 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./landing.css"
+import "./landing.css";
 
-const Landing = () => {
+const NavHead = () => {
+  const [click, setClick] = useState(false);
   return (
-    <div>
+    <>
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
             <img className="logo" src="images/logo.svg" alt="Port Co Logo"></img>
           </Link>
+          <div className="menu-icon">
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+          </div>
         </div>
       </nav>
-
-    </div>
+    </>
   )
 }
 
-export default Landing
+export default NavHead
