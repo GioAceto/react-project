@@ -1,0 +1,13 @@
+.hero-container {
+  width: 100vw;
+  height: 40rem;
+  background-color: cyan;
+}
+
+.hero-image-container {
+  width: 100%;
+}
+
+.hero-image {
+  width: 100vw;
+}
