@@ -1,13 +1,61 @@
 .hero-container {
   width: 100vw;
   height: 40rem;
-  background-color: cyan;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-aside {
+  height: 100%;
+  width: 100%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #393939;
+}
+
+.text-box {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, p {
+  margin-bottom: 1rem;
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+
+h1, p {
+  margin-bottom: 1rem;
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+p {
+  margin-bottom: 4rem;
+  font-size: 1.3rem;
+  font-weight: 200;
 }
 
 .hero-image-container {
   width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-image {
-  width: 100vw;
+  height: 100%;
+  align-self: center;
 }

@@ -21,15 +21,15 @@ const NavHead = () => {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item"></li>
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              About
+              ABOUT
             </Link>
             <li className="nav-item"></li>
             <Link to="/gallery" className="nav-links" onClick={closeMobileMenu}>
-              Gallery
+              GALLERY
             </Link>
             <li className="nav-item"></li>
             <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
-              Contact
+              CONTACT US
             </Link>
           </ul>
         </div>
