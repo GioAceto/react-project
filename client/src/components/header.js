@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
-import { Button } from "./button"
 
 const NavHead = () => {
   const [click, setClick] = useState(false);
