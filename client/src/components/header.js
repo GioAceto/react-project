@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
+import { Button } from "./button"
 
 const NavHead = () => {
   const [click, setClick] = useState(false);
 
-  const handleClick = () => setClick(!click)
-  const closeMobileMenu = () => setClick(false)
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
   return (
     <>
@@ -24,11 +25,11 @@ const NavHead = () => {
               Home
             </Link>
             <li className="nav-item"></li>
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              Menu
+            <Link to="/gallery" className="nav-links" onClick={closeMobileMenu}>
+              Gallery
             </Link>
             <li className="nav-item"></li>
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
               Contact
             </Link>
           </ul>
