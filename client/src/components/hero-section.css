@@ -8,7 +8,6 @@
 .main-aside {
   height: 100%;
   width: 100%;
-  align-self: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +42,7 @@ h1 {
 }
 
 p {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   font-size: 1.3rem;
   font-weight: 200;
 }
@@ -58,4 +57,19 @@ p {
 .hero-image {
   height: 100%;
   align-self: center;
+}
+
+@media screen and (max-width: 1400px) {
+
+  .hero-container {
+    height: 30rem;
+  }
+  
+h1 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
 }

@@ -72,6 +72,21 @@ ul {
   display: none;
 }
 
+@media screen and (max-width: 1400px) {
+  .navbar {
+    height: 6rem;
+  }
+
+  .nav-links {
+    font-size: 1.3rem;
+  }
+
+  .logo {
+    margin: 0 2rem;
+    width: 9rem;
+  }
+}
+
 
 @media screen and (max-width: 750px) {
   .navbar {
