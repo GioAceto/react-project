@@ -1,0 +1,11 @@
+.gallery-container {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.gallery-image {
+  height: 20rem;
+}
