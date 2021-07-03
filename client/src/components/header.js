@@ -22,7 +22,7 @@ const NavHead = () => {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item"></li>
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              Home
+              About
             </Link>
             <li className="nav-item"></li>
             <Link to="/gallery" className="nav-links" onClick={closeMobileMenu}>
