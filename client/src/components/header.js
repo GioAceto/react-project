@@ -28,6 +28,14 @@ const NavHead = () => {
               GALLERY
             </Link>
             <li className="nav-item"></li>
+            <Link to="/wholesale" className="nav-links" onClick={closeMobileMenu}>
+              WHOLESALE
+            </Link>
+            <li className="nav-item"></li>
+            <Link to="/shop" className="nav-links" onClick={closeMobileMenu}>
+              SHOP
+            </Link>
+            <li className="nav-item"></li>
             <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
               CONTACT US
             </Link>

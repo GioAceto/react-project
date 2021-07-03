@@ -44,6 +44,7 @@ flex-direction: row;
   font-weight: 300;
   font-size: 1.5rem;
   letter-spacing: 0.05rem;
+  white-space: nowrap;
 }
 
 ul {
@@ -74,11 +75,14 @@ ul {
 
 @media screen and (max-width: 1400px) {
   .navbar {
+    width: 100%;
     height: 6rem;
   }
 
   .nav-links {
+    margin: 0 0.4rem;
     font-size: 1.3rem;
+    white-space: no pre-wrap;
   }
 
   .logo {
@@ -86,6 +90,7 @@ ul {
     width: 9rem;
   }
 }
+
 
 
 @media screen and (max-width: 750px) {
@@ -101,6 +106,7 @@ ul {
     font-weight: 400;
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
+    white-space: nowrap;
   }
 
   .nav-menu {
