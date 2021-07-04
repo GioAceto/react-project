@@ -1,7 +1,6 @@
-import { values } from "lodash";
 import { useState, useEffect } from "react";
 
-const useForm = () => {
+const useForm = (validate) => {
   const [values, setValues] = useState({
     name: "",
     email: "",
@@ -20,9 +19,11 @@ const useForm = () => {
 
   const handleSubmit = event => {
     event.preventDefault();
+
+    setErrors(validate(values));
   };
 
-  return { handleChange, values, handleSubmit };
+  return { handleChange, values, handleSubmit, errors };
 };
 
 export default useForm;

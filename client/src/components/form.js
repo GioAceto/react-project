@@ -1,9 +1,10 @@
 import React from 'react';
 import "./form.css";
-import useForm from './use-form';
+import useForm from './use-form.js';
+import validate from "./validate.js";
 
 const ContactForm = () => {
-  const { handleChange, values, handleSubmit } = useForm();
+  const { handleChange, values, handleSubmit, errors } = useForm(validate);
   return (
     <div className="form-content-right">
       <form className="form" onSubmit={handleSubmit}>
@@ -20,6 +21,7 @@ const ContactForm = () => {
             value={values.name}
             onChange={handleChange}
           />
+          {errors.name && <p className="err-message">{errors.name}</p>}
         </div>
         <div className="form-inputs">
           <label htmlFor="email" className="form-label">Email</label>
