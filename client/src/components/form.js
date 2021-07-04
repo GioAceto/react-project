@@ -8,7 +8,7 @@ const ContactForm = ({ submitForm }) => {
   return (
     <div className="form-content-right">
       <form className="form" onSubmit={handleSubmit}>
-        <h1 className="form-header">CONTACT US</h1>
+        <h1 className="form-header">LET'S CHAT!</h1>
         <h2>For product questions and business inquiries, please fill out the form below.</h2>
         <hr />
         <div className="form-inputs">
@@ -57,6 +57,7 @@ const ContactForm = ({ submitForm }) => {
               rows="7"
               cols="50"
               placeholder="Enter comment here"
+              maxLength="1000"
               value={values.comment}
               onChange={handleChange}></textarea>
             {errors.comment && <p className="err-message">{errors.comment}</p>}
