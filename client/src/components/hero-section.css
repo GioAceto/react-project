@@ -1,13 +1,13 @@
 .hero-container {
-  width: 100vw;
-  height: 40rem;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: row;
 }
 
 .main-aside {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,15 +31,8 @@ h1, p {
   letter-spacing: 2px;
 }
 
-h1, p {
-  margin-bottom: 1rem;
-  color: white;
-  font-family: 'Barlow Condensed', sans-serif;
-  letter-spacing: 2px;
-}
-
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 200;
 }
 
@@ -57,7 +50,8 @@ p {
 }
 
 .hero-image {
-  height: 100%;
+  width: 100%;
+  height: auto;
   align-self: center;
 }
 

@@ -10,7 +10,6 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
 }
 
 .navbar-container {
@@ -88,6 +87,10 @@ ul {
   .logo {
     margin: 0 2rem;
     width: 9rem;
+  }
+
+  .nav-links {
+    font-size: 1.5rem;
   }
 }
 

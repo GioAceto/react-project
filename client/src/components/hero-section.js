@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero-section.css";
 import "./hero-section";
+import Carousel from 'react-bootstrap/Carousel'
 
 const HeroSection = () => {
   return (
@@ -19,7 +20,29 @@ const HeroSection = () => {
         </div>
       </aside>
       <div className="hero-image-container">
-        <img className="hero-image" src="images/coffee_shop.jpeg" alt="coffee" />
+        <Carousel fade className="carousel">
+          <Carousel.Item>
+            <img
+              className="d-block w-100 hero-image"
+              src="images/coffee_shop.jpeg"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 hero-image"
+              src="images/coffee_shop.jpeg"
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 hero-image"
+              src="images/coffee_shop.jpeg"
+              alt="Third slide"
+            />
+          </Carousel.Item>
+        </Carousel>
       </div>
     </div>
   )
