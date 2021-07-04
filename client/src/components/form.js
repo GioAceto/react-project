@@ -3,7 +3,7 @@ import "./form.css";
 import useForm from './use-form.js';
 import validate from "./validate.js";
 
-const ContactForm = (submitForm) => {
+const ContactForm = ({ submitForm }) => {
   const { handleChange, values, handleSubmit, errors } = useForm(submitForm, validate);
   return (
     <div className="form-content-right">
