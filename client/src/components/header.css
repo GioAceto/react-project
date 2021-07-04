@@ -32,7 +32,7 @@ flex-direction: row;
 }
 
 .nav-links {
-  margin: 0 1.5rem;
+  margin: 0 4rem;
   color: black;
   display: flex;
   align-items: center;
@@ -129,15 +129,11 @@ ul {
     left: 0;
     opacity: 0.93;
     transition: all 0.5s ease;
-    z-index: 2;
-  }
-
-  .logo {
-    margin: 0 2rem;
-    width: 9rem;
+    z-index: 999;
   }
 
   .menu-icon {
+    margin-left: 2rem;
     display: block;
     position: absolute;
     left: 75%;
@@ -152,4 +148,5 @@ ul {
     color: black;
     font-size: 2rem;
   }
+
 }
