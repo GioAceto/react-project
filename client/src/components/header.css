@@ -7,16 +7,16 @@
   height: 8rem;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   font-size: 1.2rem;
 }
 
 .navbar-container {
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1500px;
 }
 
 .navbar-logo {
@@ -90,13 +90,13 @@ ul {
   }
 
   .nav-links {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 780px) {
   .navbar {
     display: flex;
     flex-direction: row;
