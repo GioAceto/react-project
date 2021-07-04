@@ -8,6 +8,7 @@ const useForm = (validate) => {
     comment: ""
   })
   const [errors, setErrors] = useState({})
+  const [isSubmit, setIsSubmit] = useState(false)
 
   const handleChange = event => {
     const { name, value } = event.target
@@ -21,6 +22,7 @@ const useForm = (validate) => {
     event.preventDefault();
 
     setErrors(validate(values));
+    setIsSubmit(true)
   };
 
   return { handleChange, values, handleSubmit, errors };
