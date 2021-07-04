@@ -1,6 +1,5 @@
 import React from "react";
 import "./gallery-section.css";
-import "./gallery-section";
 
 const GallerySection = () => {
   return (

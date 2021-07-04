@@ -1,5 +1,5 @@
 import React from 'react';
-import "./form.css";
+import "./contact.css"
 import useForm from './use-form.js';
 import validate from "./validate.js";
 
@@ -59,7 +59,6 @@ const ContactForm = ({ submitForm }) => {
           <button className="form-input-btn" type="submit">Send</button>
         </div>
       </form>
-
     </div >
   )
 }

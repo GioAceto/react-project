@@ -1,18 +1,13 @@
-import React, { useState } from "react"
+import React from "react"
 import "../../App.css"
-import ContactForm from "../form.js"
-import FormSuccess from "../form-success.js"
+import ContactSection from "../contact-section.js"
+import Footer from "../footer.js"
 
 const Contact = () => {
-  const [isSubmit, setIsSubmit] = useState(false)
-
-  function submitForm() {
-    setIsSubmit(true);
-  }
   return (
     <>
-      {!isSubmit ? <ContactForm submitForm=
-        {submitForm} /> : <FormSuccess />}
+      <ContactSection />
+      <Footer />
     </>
   )
 };
