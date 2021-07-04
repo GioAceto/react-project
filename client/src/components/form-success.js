@@ -4,7 +4,7 @@ const FormSuccess = () => {
   return (
     <div>
       <div className="form-content-right">
-        <div className="form-success">Your inquiry has been received. Thanks!</div>
+        <div className="form-success">Your inquiry was received. Thanks!</div>
 
       </div>
     </div>
