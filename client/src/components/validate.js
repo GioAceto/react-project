@@ -2,11 +2,11 @@ export default function validate(values) {
   let errors = {}
 
   if (!values.name.trim()) {
-    errors.name = "Name required"
+    errors.name = "Name is required"
   }
 
   if (!values.email) {
-    errors.email = "Email required"
+    errors.email = "Email is required"
   }
 
   if (!values.comment) {

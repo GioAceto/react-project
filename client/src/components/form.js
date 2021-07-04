@@ -9,9 +9,11 @@ const ContactForm = ({ submitForm }) => {
     <div className="form-content-right">
       <form className="form" onSubmit={handleSubmit}>
         <h1 className="form-header">CONTACT US</h1>
-        <h2>For product questions and business inquiries please fill out the form below.</h2>
+        <h2>For product questions and business inquiries, please fill out the form below.</h2>
+        <hr />
         <div className="form-inputs">
           <label htmlFor="name" className="form-label">Name</label>
+          <br />
           <input
             id="name"
             type="text"
@@ -25,6 +27,7 @@ const ContactForm = ({ submitForm }) => {
         </div>
         <div className="form-inputs">
           <label htmlFor="email" className="form-label">Email</label>
+          <br />
           <input
             id="email"
             type="email"
@@ -38,6 +41,7 @@ const ContactForm = ({ submitForm }) => {
         </div>
         <div className="form-inputs">
           <label htmlFor="type" className="form-label">Inquiry Type</label>
+          <br />
           <select id="type" name="type" className="form-input">
             <option value="products">Products</option>
             <option value="wholesale">Wholesale</option>
@@ -46,10 +50,11 @@ const ContactForm = ({ submitForm }) => {
           </select>
           <div className="form-inputs">
             <label htmlFor="comment" className="form-label">Comment</label>
+            <br />
             <textarea
               id="comment"
               name="comment"
-              rows="4"
+              rows="7"
               cols="50"
               placeholder="Enter comment here"
               value={values.comment}

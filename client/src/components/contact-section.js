@@ -13,6 +13,9 @@ const ContactSection = () => {
   return (
     <>
       <div className="contact-container">
+        <div className="details-container">
+
+        </div>
         {!isSubmit ? <ContactForm submitForm=
           {submitForm} /> : <FormSuccess />}
       </div>
