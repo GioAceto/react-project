@@ -104,12 +104,12 @@ height: auto;
   padding: 2rem 1rem;
 }
 
-h1 {
-  font-size: 1.2rem;
+.main-aside h1 {
+  font-size: 1.3rem;
   font-weight: 200;
 }
 
-p {
+.main-aside p {
   margin-bottom: 3rem;
   font-size: 1rem;
   font-weight: 200;

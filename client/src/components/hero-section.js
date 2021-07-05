@@ -15,7 +15,7 @@ const HeroSection = () => {
           <p>Praesent facilisis accumsan sollicitudin. Etiam venenatis, lectus vitae
             ultrices lobortis, metus diam tempor nulla, in efficitur ante leo a urna.
             Nulla venenatis velit placerat tellus varius, eget elementum nulla euismod.
-            Vivamus mollis vulputate felis vel molestie.</p>
+          </p>
           <p></p>
         </div>
       </aside>
