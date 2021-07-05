@@ -277,11 +277,12 @@
 }
 
 .form-success {
-  margin: 0 auto;
   padding: 2rem;
   height: 50rem;
-  width: 36rem;
+  width: 100vw;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   font-size: 2rem;
   font-weight: 300;
   background-color: white;
