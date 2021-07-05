@@ -185,5 +185,110 @@
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 0.9rem;
 }
+}
+
+@media screen and (max-width: 1000px) {
+.details-container {
+  padding-top: 5rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.contact-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #393939;
+}
+
+.info {
+  height: 15rem;
+}
+
+.hours {
+  height: 15rem;
+}
+
+.form {
+  margin: 0 auto;
+  padding: 2rem;
+  height: 50rem;
+  width: 36rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.form-success {
+  margin: 0 auto;
+  padding: 2rem;
+  height: 50rem;
+  width: 36rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 300;
+  background-color: white;
+}
+
+.form-content-right {
+  padding: 5rem;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+}
+}
+
+@media screen and (max-width: 780px) {
+  .details-container {
+  padding-top: 3rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-content-right {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: magenta;
+}
+
+.details-container h1 {
+  font-size: 1.5rem;
+}
+
+.details-container h3 {
+  font-size: 0.9rem;
+}
+
+.form {
+  margin: 0;
+  height: 35rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.form-success {
+  margin: 0 auto;
+  padding: 2rem;
+  height: 50rem;
+  width: 36rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 300;
+  background-color: white;
+}
+
+.form-header {
+  font-size: 1.8rem;
+}
 
 }
