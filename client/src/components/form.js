@@ -44,8 +44,9 @@ const ContactForm = ({ submitForm }) => {
           <br />
           <select id="type" name="type" className="form-input">
             <option value="products">Products</option>
-            <option value="wholesale">Wholesale</option>
             <option value="orders">Orders</option>
+            <option value="events">Events</option>
+            <option value="wholesale">Wholesale</option>
             <option value="other">Other</option>
           </select>
           <div className="form-inputs">

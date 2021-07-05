@@ -12,6 +12,20 @@
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.details-container h1 {
+  padding: 1rem 0;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.details-container h3 {
+  font-size: 1.2rem;
+  font-weight: 200;
 }
 
 .form-content-right {

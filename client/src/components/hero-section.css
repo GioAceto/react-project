@@ -31,12 +31,12 @@ h1, p {
   letter-spacing: 2px;
 }
 
-h1 {
-  font-size: 1.rem;
+.main-aside h1 {
+  font-size: 2rem;
   font-weight: 200;
 }
 
-p {
+.main-aside p {
   margin-bottom: 3rem;
   font-size: 1.3rem;
   font-weight: 200;
